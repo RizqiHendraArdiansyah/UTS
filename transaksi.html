@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geprek Bensu</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   
+</div>
+    <div class="header">
+        
+        <table width="100%">
+            <tr>
+                <td><div class="judul"><h1>Geprek Bensu</h1></div></td>
+
+                <td><div class="Link">
+                <h2><a href="home.php">Home</a>
+                <a href="transaksi.php">Transaksi</a>
+                <a href=tambahfoto.php>Tambah Foto</a></h2>
+                </div></td>
+            </tr>
+            </table>
+             </div>
+
+        <h3>Hitung Transaksi</h3>
+        <form method="post" action="transaksi.php">
+            <label> Pembeli &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label><input type="text" name="nama"><br><br>
+            <label> Status Pembeli </label><select name="status">
+                <option value="Member">Member</option>
+                <option value="Non-Member""No">Non-Member</option> </select>
+            <br><br>
+            <label>Menu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><select name="menu">
+                <option value="Paket 1">Paket 1</option>
+                <option value="Paket 2">Paket 2</option>
+                <option value="Paket 3">Paket 3</option> </select>
+            <br><br>
+            <label> Jumlah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> <input type="number" name="jumlah"><br><br>
+            <input type="submit" name="HITUNG" value="HITUNG">
+        </form>
+
+        <div class="footer">
+            <p href="copyright @ belajar CSS">Geprek Bensu</p>
+        </div>
+    </body>
+</html>

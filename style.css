@@ -1,0 +1,51 @@
+.judul{
+    text-align: left;
+}
+
+.Link{
+    text-align: right;
+}
+
+.header{ 
+    border : 1px solid #dedede; 
+    padding : 10px; 
+    margin : 10px; 
+    background-color :rgba(249, 253, 7, 0.938);
+    box-shadow: 2px 2px 15px black;
+    color: rgba(252, 153, 5, 0.87);
+    font-family: 'Times New Roman';
+   }
+body{
+    background-image: url(img/geprekk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Link h2 a{
+    text-align: right;
+    text-decoration: none;
+    color: rgba(252, 153, 5, 0.87);
+}
+.profil{
+    color :black;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.middle img{
+    width: 600px;
+    height: 400px;
+}
+.footer{
+    text-align: center;
+    border : 1px solid #dedede;
+    padding : 10px;
+    margin : 10px;
+    background-color : rgba(249, 253, 7, 0.938);
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    box-shadow: 2px 2px 15px black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
