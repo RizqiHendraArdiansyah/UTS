@@ -14,7 +14,7 @@
                 <td><div class="judul"><h1>Geprek Bensu</h1></div></td>
 
                 <td><div class="Link">
-                <h2><a href=home.php>Home</a>
+                <h2><a href=home.html>Home</a>
                 <a href=transaksi.html>Transaksi</a>
                 <a href=tambahfoto.php>Tambah Foto</a></h2>
                 </div></td>
